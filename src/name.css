@@ -1,0 +1,29 @@
+.name-wrapper {
+    border: 1px lightgray solid;
+    border-radius: 5px;
+    margin: 0 10px 5px 10px !important;
+    width: 85%;
+}
+
+.name-wrapper .ant-btn {
+    height: 40px;
+    background-color: white;
+    border: none;
+}
+
+.name {
+    height: 40px;
+    width: 95%;
+    display: flex;
+    align-items: center;
+    padding: 0 10px 0;
+}
+
+.x-wrapper {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 2px !important;
+}
+

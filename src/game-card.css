@@ -1,0 +1,54 @@
+.game-card-wrapper {
+    display: flex;
+    min-width: 100% !important;
+    flex-direction: column;
+}
+
+.card-wrapper {
+    min-height: 200px;
+    min-width: 90% !important;
+    background-color: #3685F0;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.button-group-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 0 !important;
+}
+
+.back-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 36px;
+    width: 80px;
+    background-color: grey;
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+
+.next-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 36px;
+    width: 80px;
+    background-color: #F9C74F;
+    color: black;
+    border-radius: 5px;
+    border: none;
+}
+
+b {
+    font-weight: 800;
+    border-bottom: 1px solid #000;
+    padding-bottom: 1px;
+}
